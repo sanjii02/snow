@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="request_date" label="Request Date" language="en" table="x_cdltd_loaner_app_loaner">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>request_date</element>
+            <help/>
+            <hint/>
+            <label>Request Date</label>
+            <language>en</language>
+            <name>x_cdltd_loaner_app_loaner</name>
+            <plural>Request Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-12 04:29:56</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Date</sys_name>
+            <sys_package display_value="Loaner Application" source="x_cdltd_loaner_app">4264bf249f3202107f4436a22524ab59</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Application">4264bf249f3202107f4436a22524ab59</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_loaner_app_loaner_request_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-12 04:29:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

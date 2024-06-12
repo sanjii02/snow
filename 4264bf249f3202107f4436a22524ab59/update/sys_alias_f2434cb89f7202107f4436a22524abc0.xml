@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template display_value="Git">21b9c8709fb202107f4436a22524ab19</configuration_template>
+        <connection_type>http_connection</connection_type>
+        <id>x_cdltd_loaner_app.Github</id>
+        <is_internal>false</is_internal>
+        <multiple_connections>false</multiple_connections>
+        <name>Github</name>
+        <parent/>
+        <retry_policy display_value="Default HTTP Retry Policy">ef751ff07301330025d71afe2ff6a7f9</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 05:59:59</sys_created_on>
+        <sys_id>f2434cb89f7202107f4436a22524abc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_app.Github</sys_name>
+        <sys_package display_value="Loaner Application" source="x_cdltd_loaner_app">4264bf249f3202107f4436a22524ab59</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Application">4264bf249f3202107f4436a22524ab59</sys_scope>
+        <sys_update_name>sys_alias_f2434cb89f7202107f4436a22524abc0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 05:59:59</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>

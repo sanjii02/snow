@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cdltd_loaner.Country</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Country</name>
+        <script><![CDATA[var Country = Class.create();
+Country.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+city: function() {
+        var a = this.getParameter('sysparm_id');
+        var xyz = new GlideRecord('sys_user');
+        xyz.addQuery('sys_id', a);
+        xyz.query();
+        while (xyz.next()) {
+            var city = xyz.location.city;
+            var co = xyz.location.country;
+        }
+        return city + "@" + co;
+    },
+    type: 'Country'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-13 10:02:48</sys_created_on>
+        <sys_id>483bcec99f7602107f4436a22524ab4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Country</sys_name>
+        <sys_package display_value="Loaner" source="x_cdltd_loaner">6e23943c9fb202107f4436a22524ab0f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Loaner">6e23943c9fb202107f4436a22524ab0f</sys_scope>
+        <sys_update_name>sys_script_include_483bcec99f7602107f4436a22524ab4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-13 10:02:48</sys_updated_on>
+    </sys_script_include>
+</record_update>

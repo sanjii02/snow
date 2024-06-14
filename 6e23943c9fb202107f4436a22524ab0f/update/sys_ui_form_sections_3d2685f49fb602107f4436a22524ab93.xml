@@ -31,16 +31,30 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-13 16:19:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f6127019f3e02107f4436a22524abb2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_loaner_loaner" name="x_cdltd_loaner_loaner" sys_domain="global" view="Default view">3d2685f49fb602107f4436a22524ab93</sys_ui_form>
+            <sys_ui_section caption="Reminders" display_value="Reminders" name="x_cdltd_loaner_loaner" sys_domain="global" view="Default view">eb6127019f3e02107f4436a22524abae</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-13 16:19:12</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-06-12 10:22:19</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>8e2685f49fb602107f4436a22524ab9b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_cdltd_loaner_loaner" name="x_cdltd_loaner_loaner" sys_domain="global" view="Default view">3d2685f49fb602107f4436a22524ab93</sys_ui_form>
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_cdltd_loaner_loaner" sys_domain="global" view="Default view">b92685f49fb602107f4436a22524ab3b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-12 10:22:19</sys_updated_on>
+            <sys_updated_on>2024-06-13 16:19:12</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_cdltd_loaner_loaner</name>

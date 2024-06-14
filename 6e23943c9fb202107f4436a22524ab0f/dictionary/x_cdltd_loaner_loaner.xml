@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0993947c9fb202107f4436a22524ab06" extends="task" label="Loaner" max_length="40" name="x_cdltd_loaner_loaner" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element label="Overdue count" max_length="40" name="overdue_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Overdue reminder" max_length="40" name="overdue_reminder" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Pick up reminder" max_length="40" name="pick_up_reminder" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Return Reminder" max_length="40" name="return_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Additional Comments" max_length="4000" name="u_ac" type="journal"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="santaclara" label="Depot" max_length="40" name="u_depot" type="string">
             <choice>
